@@ -1,0 +1,6 @@
+/*
+Used to style the TinyMCE editor.
+*/
+html .mceContentBody { max-width: 850px !important; }
+
+html .mceContentBody * { max-width: 850px !important; }

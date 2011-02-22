@@ -1,0 +1,75 @@
+
+/*  Widget Styles
+    Copyright (c) Ernesto Mendez 2010.
+    http://der-design.com  */
+
+/* WIDGETS */
+.widget { position: relative; }
+.widget h2.title { font-size: 20px; font-family: Georgia,serif; text-transform: uppercase; letter-spacing: 0.5px; margin-bottom: 18px; }
+.widget > p:last-child, .widget > ul:last-child, .widget > ul:last-child > li:last-child, .widget > form:last-child, .widget > table:last-child,
+.widget > blockquote:last-child, .widget > blockquote p:last-child { margin-bottom: 0; }
+.widget ul, .widget ol { margin-left: 0; padding-left: 0; margin-right: 0; padding-right: 0; }
+.widget ul li { list-style: none; padding: 5px 0 5px 15px; }
+.widget ul > li ul li { padding-left: 15px; }
+.widget ul li a { text-decoration: none; }
+.widget ul li ul li:first-child { margin-top: 5px; }
+.widget ul li ul li:last-child { margin-bottom: 0; padding-bottom: 0; }
+.widget ul li ul { border-left: solid 1px #e8e8e8; }
+
+/* OVERRIDES */
+.widget_calendar table { margin-bottom: 0; }
+.widget_categories { color: #868686; }
+.widget_categories > li { font-size: 10px !important; }
+.widget_categories > li a { }
+
+
+/* SEARCH WIDGET */
+.widget form.search-form { position: relative; display: block; height: 35px; }
+.widget form.search-form p { margin: 0; padding: 0; width: 300px; position: relative; }
+.widget form.search-form input { display: block; margin: 0; position: absolute; top: 0; }
+.widget form.search-form input[type=text] { width: 230px; left: 0; }
+.widget form.search-form input[type=submit] { width: 50px; padding: 10px 0; right: 0;}
+
+/* SEARCH WIDGET (FOOTER) */
+#footer .widget form.search-form input[type=text] { width: 220px; }
+#footer .widget form.search-form input[type=submit] { right: 10px; }
+#footer .widget form.search-form input[type=text]:focus { background-image: none; }
+
+/* FLICKR WIDGET (SIDEBAR) */
+.der_flickr_widget { width: 304px; position: relative; left: -7px; margin-bottom: 42px !important; }
+.der_flickr_widget .flickr_badge_image { display: inline; float: left; margin: 0 6px 12px 6px; }
+.der_flickr_widget .flickr_badge_image a { display: block; width: 75px; height: 75px; overflow: hidden; padding: 6px; background: #f6f6f6; border: solid 1px #dfdfdf; }
+.der_flickr_widget .flickr_badge_image img { width: 75px; height: 75px; }
+.der_flickr_widget .flickr_badge_image a:hover { background-color: #f1f1f1; border-color: #ccc; }
+
+
+/* FLICKR WIDGET (FOOTER) */
+#footer .der_flickr_widget { width: 304px; position: relative; left: -7px; margin-bottom: 30px !important; }
+#footer .der_flickr_widget .flickr_badge_image { display: inline; float: left; margin: 0 6px 12px 6px; }
+#footer .der_flickr_widget .flickr_badge_image a { display: block; width: 75px; height: 75px; overflow: hidden; padding: 6px; background: #373737; border: solid 1px #424242; }
+#footer .der_flickr_widget .flickr_badge_image img { width: 75px; height: 75px; }
+#footer .der_flickr_widget .flickr_badge_image a:hover { background-color: #393939; border-color: #525252; }
+
+
+/* FOOTER WIDGETS */
+#footer .widget { background: url(../images/footer-widget-heading.png) 0px 0px no-repeat; padding-top: 7px; margin-bottom: 40px; }
+#footer .widget h2.title { font-size: 19px; color: #d9c9ba; letter-spacing: 0.5px; padding-left: 12px; margin-bottom: 16px; }
+#footer .widget ul li { border-bottom: solid 1px #343434; }
+#footer .widget ul li.block-link a {  }
+#footer .widget ul li.block-link a:hover { background-color: #303030; }
+#footer .widget ul li ul li:first-child { border-top: solid 1px #343434; margin-top: 5px; }
+#footer .widget ul li ul li:last-child { margin-bottom: 0; padding-bottom: 0; border-bottom: none; }
+#footer .widget ul li ul { border-left: solid 1px #343434; }
+#footer .widget ul li.block-link { padding: 0; }
+#footer .widget ul li.block-link a { display: block; padding: 5px 0 5px 15px; }
+
+
+/* SIDEBAR */
+#sidebar .widget a { color: #e45b2f; }
+#sidebar .widget a:hover { color: #ff7f50; text-decoration: underline; }
+#sidebar .widget {  margin-bottom: 54px; }
+#sidebar .widget:last-child { margin-bottom: 0; }
+
+
+/* OVERRIDES */
+#footer .column .widget:last-child { margin-bottom: 0 !important; }

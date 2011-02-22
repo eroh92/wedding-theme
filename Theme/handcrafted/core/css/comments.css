@@ -1,0 +1,86 @@
+
+/*  Comment Styles
+    Copyright (c) Ernesto Mendez 2010.
+    http://der-design.com  */
+
+#comments { font-size: 92.30%; }
+#comments h3#comments-heading { padding: 30px 20px 20px; border-top: solid 1px #cfcfcf; margin-top: 25px; font-size: 130.76%; border-bottom: 0; color: #434543; letter-spacing: 0.5px; }
+#comments ol.commentlist { position: relative; margin: 0 0 30px 0; padding: 0; }
+#comments ol.commentlist > li { list-style: none; }
+
+#comments ol.commentlist li.comment { list-style: none; position: relative; border: solid 1px #747474; border-width: 1px 0; margin-top: -1px; margin: 0; padding: 0; margin-top: -1px; padding-bottom: 5px; }
+#comments ol.commentlist li.comment .comment-body { padding: 0 20px; font-style: italic; }
+#comments ol.commentlist li.comment .comment-author { position: relative; width: 560px; padding: 0 20px; height: 48px; left: -20px; border-bottom: solid 1px #cfcfcf; margin-bottom: 15px; }
+#comments ol.commentlist li.comment .comment-author + em { font-style: normal; font-weight: bold; display: block; margin-bottom: -10px; }
+#comments ol.commentlist li.comment .comment-author .avatar { position: absolute; display: block; width: 48px; height: 48px; top: 0; right: 20px; }
+#comments ol.commentlist li.comment .comment-author span.says { display: none; }
+#comments ol.commentlist li.comment .comment-author cite.fn { position: absolute; font-family: Georgia, serif; top: 4px; }
+#comments ol.commentlist li.comment .comment-author cite.fn, #comments ol.commentlist li.comment .comment-author cite.fn a { text-decoration: none; color: #434543; font-size: 115.38%;
+font-style: normal; white-space: nowrap;  }
+#comments ol.commentlist li.comment .comment-author cite.fn a:hover { text-decoration: underline; color: #d45429; }
+#comments ol.commentlist li.comment .comment-meta { position: absolute; font-size: 84.61%; top: 28px; text-decoration: none; font-style: normal; width: 560px; }
+#comments ol.commentlist li.comment .comment-meta a { text-decoration: none; color: #868686; }
+#comments ol.commentlist li.comment .comment-meta a:hover { text-decoration: underline; }
+
+#comments ol.commentlist li.comment-author-admin, #comments ol.commentlist li.comment li.bypostauthor { background: url(../images/comment-author-bg.png) repeat !important;  }
+
+#comments a.comment-reply-link { position: absolute; font-size: 84.61%; text-decoration: none; color: #d45429 !important; }
+#comments a.comment-reply-link:hover { text-decoration: underline; }
+#comments a.comment-reply-link { top: 28px; right: 84px; }
+
+#comments #respond h3 { font-size: 130.76%; color: #434543; letter-spacing: 0.5px; padding-bottom: 10px; border-bottom: none; }
+#comments #respond form { padding: 0 20px; }
+
+/* COMMENTS NAVIGATION */
+#comments .comments-navigation { padding: 0 20px; }
+#comments .comments-navigation * { position: relative; top: -10px; }
+#comments .comments-navigation > div { width: 50%; }
+
+
+
+/* COMMENT REPLY */
+#comments #respond h3 {  }
+#comments .comment #respond { padding-left: 17px; }
+#comments .comment #respond h3 { padding-top: 10px; text-indent: 0; }
+#comments .comment #respond form.alt { padding: 0; }
+#comments ol.commentlist > li textarea { width: 90%; }
+#comments ol.commentlist > li form.alt { padding: 0px 0 20px !important; }
+
+/* FULL WIDTH COMMENTS */
+#single .wrapper-full-width { padding-bottom: 0 !important; }
+#single .wrapper-full-width #content #comments { width: 600px; border-right: solid 1px #cfcfcf; padding-bottom: 50px; }
+#single .wrapper-full-width #content #comments h3#comments-heading { border-top: none; margin-top: 0; }
+#single .wrapper-full-width #content form#commentform { margin-bottom: 0; }
+
+/* THREADED COMMENTS */
+
+#comments ol.commentlist ul { margin: 0; padding: 0; }
+#comments ol.commentlist li li { background-image: none !important; border-bottom: none !important; }
+
+#comments ol.commentlist li.depth-2  { padding-left: 20px; }
+#comments ol.commentlist li.depth-2 .comment-author { width: 540px; }
+
+
+#comments ol.commentlist li.depth-3  { padding-left: 20px; }
+#comments ol.commentlist li.depth-3 .comment-author { width: 520px; }
+
+#comments ol.commentlist li.depth-4  { padding-left: 20px; }
+#comments ol.commentlist li.depth-4 .comment-author { width: 500px; }
+
+#comments ol.commentlist li.depth-5  { padding-left: 20px; }
+#comments ol.commentlist li.depth-5 .comment-author { width: 480px; }
+
+#comments ol.commentlist li.depth-6  { padding-left: 20px; }
+#comments ol.commentlist li.depth-6 .comment-author { width: 460px; }
+
+#comments ol.commentlist li.depth-7  { padding-left: 20px; }
+#comments ol.commentlist li.depth-7 .comment-author { width: 440px; }
+
+#comments ol.commentlist li.depth-8  { padding-left: 20px; }
+#comments ol.commentlist li.depth-8 .comment-author { width: 420px; }
+
+#comments ol.commentlist li.depth-9  { padding-left: 20px; }
+#comments ol.commentlist li.depth-9 .comment-author { width: 400px; }
+
+#comments ol.commentlist li.depth-10  { padding-left: 20px; }
+#comments ol.commentlist li.depth-10 .comment-author { width: 380px; }

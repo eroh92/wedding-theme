@@ -1,0 +1,39 @@
+/* HandCrafted | Wood */
+
+@import url(dark.css);
+
+/* Wood */
+body { background: #21201d; color: #706d65; }
+#footer, #header .navigation > ul > li > a, #page-header h1.page-title  { color: #706d65; }
+#header .navigation > ul > li.current_page_item > a, #header .navigation > ul > li.current_page_item > a:hover { color: #D45429; }
+#topbar-wrap { background-image: url(wood/header-bg.png); background-position: bottom center; }
+.content-wrap { position: relative; z-index: 2; }
+#content-wrap-bg { background: url(wood/content-wrap-bg.png) repeat; }
+#content-wrap-full { background: url(wood/wood.jpg) top center repeat; }
+#footer-wrap { background-image: url(wood/footer-bg.png); background-color: #21201d; }
+#footer .widget ul li.block-link { border-bottom-color: #2f2e2d; }
+#footer .widget ul li.block-link a:hover { background-color: #252421; }
+#footer > li.copyright { border-top-color: #383735; }
+
+form.alt input[type=text], form.alt input[type=password], form.alt textarea {
+-moz-box-shadow: 0 0 15px rgba(0,0,0,1); -webkit-box-shadow: 0 0 15px rgba(0,0,0,1); box-shadow: 0 0 15px rgba(0,0,0,1); }
+
+ul.hc-gallery li a, blockquote, .wp-caption, img.frame, pre, a.button, .extra-box, #homepage-center a.round-button, #home ul.posts li.post .post-meta .post-image,
+#portfolio-1col .entry .slider a.container img, #contact-form div.success, ul#pagination li, #slideshow, #slideshow, #slideshow-controls ul li, #content .post .post-image,
+ul#portfolio-2col li.entries a.image, ul#portfolio-3col li.entries .entry a.image, form.alt input[type=submit] {
+-moz-box-shadow: 0 0 15px rgba(0,0,0,0.8); -webkit-box-shadow: 0 0 15px rgba(0,0,0,0.8); box-shadow: 0 0 15px rgba(0,0,0,0.8); }
+
+ul#pagination li.prev, ul#pagination li.next { -moz-box-shadow: none; -webkit-box-shadow: none; box-shadow: none; }
+
+a.round-button { -moz-border-radius: 62.5px; -webkit-border-radius: 62.5px; border-radius: 62.5px;  }
+ul#pagination li, #slideshow-controls ul li { -moz-border-radius: 17.5px; -webkit-border-radius: 17.5px; border-radius: 17.5px; }
+
+#topbar-wrap { position: relative; padding-bottom: 57px; margin-bottom: -57px; }
+#footer-wrap { position: relative; z-index: 1; }
+#footer-wrap span.shadow { position: absolute; display: block; width: 100%; height: 57px;  top: -57px;background: green; background: url(wood/header-bg.png) top repeat-x; }
+
+.widget_search form.alt input[type=submit] { -moz-box-shadow: none; -webkit-box-shadow: none; box-shadow: none; }
+
+div.pp_overlay { background: #090908; }
+
+#comments ol.commentlist li.comment-author-admin, #comments ol.commentlist li.comment li.bypostauthor { background-image: url(wood/comment-author-bg.png) !important; }

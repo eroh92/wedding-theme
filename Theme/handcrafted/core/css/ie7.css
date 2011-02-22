@@ -1,0 +1,16 @@
+
+/*  Internet Explorer 7 CSS Overrides
+    Copyright (c) Ernesto Mendez 2010.
+    http://der-design.com  */
+
+#home #footer-wrap { margin-top: -25px; }
+
+#footer > li.copyright { margin-top: -15px; }
+
+#slideshow { margin-top: -20px; }
+
+#page-header { margin-top: -20px; }
+
+.widget form.search-form input[type=text] { padding-top: 10px; padding-bottom: 10px; }
+
+.widget form.search-form input[type=submit] { padding: 6px 0; }

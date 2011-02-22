@@ -1,0 +1,11 @@
+@media print {
+
+	/* Print Styles */
+
+	p,h1,h2,h3,h4,h5,h6,small,strong, ul li, ol li { color: #323232 !important; }
+
+	.widget .flickr_badge_image a { padding: 0 !important; border: none !important; }
+
+	#topbar-wrap, #slideshow, #slideshow-controls, a.read-more, #pagination, #nav li ul { display: none !important; }
+
+}

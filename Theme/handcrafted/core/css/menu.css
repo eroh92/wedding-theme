@@ -1,0 +1,21 @@
+
+/*  Dropdown Menu
+    Copyright (c) Ernesto Mendez 2010.
+    http://der-design.com  */
+
+#navigation { position: relative; z-index: 60; }
+#navigation > li { position: relative; }
+#navigation > li > a { display: inline-block; padding-bottom: 24px; }
+#navigation li:hover > ul { visibility: visible; }
+#navigation li ul { visibility: hidden; } /* show/hide */
+#navigation > li > ul { top: 98% !important; }
+#navigation > li ul { position: absolute; width: 200px; font-family: Georgia,serif;  text-transform: none; /*font-size: 107.69%;*/ font-style: italic; margin: 0; padding: 0; top: -2px; left: 100%; background-color: #f6f6f6;
+border: solid 1px #dddddd; border-width: 1px 1px 0 1px; -moz-box-shadow: 2px 2px 0px rgba(0,0,0,0.05); -webkit-box-shadow: 2px 2px 0px rgba(0,0,0,0.05); box-shadow: 2px 2px 0px rgba(0,0,0,0.05); }
+#navigation > li > ul { top: 53px; left: 0; }
+#navigation > li ul li { position: relative; list-style: none; text-align: left; margin: 0; border-bottom: solid 1px #dadada; border-top: solid 1px white; }
+#navigation > li ul li.menu_parent > a { background-image: url(../images/menu/menu-parent.png); background-position: center right; background-repeat: no-repeat; }
+#navigation > li ul li a { display: block; padding: 7px 10px 7px 15px; color: #4e4e4e; text-decoration: none; }
+#navigation > li ul li:hover {  }
+#navigation > li ul li:hover > a { background-color: #e1e1e1; color: #d14337; }
+#navigation > li ul li.menu_parent > a:hover { background-image: url(../images/menu/menu-parent.png); background-position: center right; background-repeat: no-repeat; }
+#navigation li a.alt { background-color: #ededed; }

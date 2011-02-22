@@ -1,0 +1,23 @@
+@charset "UTF-8";
+
+/*
+Theme Name: Hand Crafted
+Theme URI: http://themeforest.net/user/der/portfolio
+Description: Fully Featured Portfolio &amp; Blog Theme
+Version: 1.0.8
+Author: Ernesto M&eacute;ndez
+Author URI: http://der-design.com
+*/
+
+/* Extra Stylesheets */
+@import url(core/css/print.css);
+@import url(extra/prettyphoto/css/prettyPhoto.css);
+@import url(extra/nivo/nivo-slider.css);
+
+/* Main Stylesheets */
+@import url(core/css/blueprint.css);
+@import url(core/css/core.css);
+@import url(core/css/menu.css);
+@import url(core/css/widgets.css);
+@import url(core/css/galleries.css);
+@import url(core/css/comments.css);

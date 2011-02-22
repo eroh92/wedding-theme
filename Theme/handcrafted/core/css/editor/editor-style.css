@@ -1,0 +1,16 @@
+/*
+Used to style the TinyMCE editor.
+*/
+html .mceContentBody {
+	max-width:560px;
+	font-family: Helvetica,Arial,sans-serif;
+}
+
+html .mceContentBody * { max-width: 560px; }
+
+h1,h2,h3,h4,h5,h6 { font-family: Georgia,serif; }
+blockquote { margin: 0 auto; background: #f6f6f6; padding: 20px; margin-bottom: 1.5em; color: #666666; border: solid 1px #cfcfcf; border-left: solid 3px #db9077; }
+blockquote p:last-child { margin-bottom: 0; }
+
+.mceContentBody + h1, .mceContentBody + h2, .mceContentBody + h3, .mceContentBody + h4, .mceContentBody + h5, .mceContentBody + h6 { padding-top: 17px; }
+.mceContentBody h1, .mceContentBody h2, .mceContentBody h3, .mceContentBody h4, .mceContentBody h5, .mceContentBody h6 { padding-bottom: 5px; border-bottom: solid 1px #cfcfcf; }

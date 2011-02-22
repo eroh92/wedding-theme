@@ -1,0 +1,129 @@
+/* Header Logo */
+#header-logo { background-image: url(../../../core/images/branding/wp-logo.png) !important; }
+#adminmenu li.toplevel_page_theme_options > a {  }
+
+/* Der Admin */
+#der-admin { position: relative; width: 784px; height: auto !important; height: 100px; min-height: 100px; margin: 16px 0 0 8px;
+font-family: "Trebuchet MS", "Lucida Grande", "Lucida Sans Unicode", sans-serif; z-index: 1; padding-bottom: 50px; }
+#der-admin #message { margin: 0 0 15px 0px; }
+/*html { overflow-y: scroll; }*/
+
+/* Typography */
+#der-admin h2 { font-size: 24px; color: #464646; font-weight: normal; }
+
+/* General Classes */
+#der-admin .clearfix:after { content: "\0020"; display: block; height: 0; clear: both; visibility: hidden; overflow:hidden; }
+#der-admin .shadow { text-shadow: 0px 2px 1px rgba(255,255,255,1); }
+#der-admin .reset, #der-admin .reset li { margin: 0; padding: 0; text-decoration: none; }
+
+/* Der Admin Head */
+#der-admin-head { position: relative; width: 784px; height: 164px; background: url(../images/header-top.png); z-index: 2; }
+#der-admin-head .theme-name { position: absolute; top: 3px; left: 15px; letter-spacing: 0.2px; font-size: 24px; font-family: Georgia,serif; font-style: italic; }
+#der-admin-head .theme-name a { color: #262626; }
+#der-admin-head .theme-name .theme-version { display: block; margin-top: 8px; font-size: 11px; color: #262626; font-weight: bold; letter-spacing: 0.2px; opacity: 0.6;
+font-family: "Trebuchet MS",sans-serif; font-style: normal; }
+
+/* Sections Menu Items */
+#der-admin-head ul.sections { position: absolute; bottom: 44px; left: 14px; text-shadow: 0px 2px 0px rgba(255,255,255,0.53); }
+#der-admin-head ul.sections li { display: inline; }
+#der-admin-head ul.sections li a { display: block; float: left; height: 40px; padding: 0 12px; line-height: 32px; color: #7c7c7c;
+background: none; font-size: 13px; text-decoration: none; border: solid 1px transparent; border-bottom: none; }
+#der-admin-head ul.sections li a:hover { background-image: url(../images/hover-tab-bg.png); border-color: #eee; }
+#der-admin-head ul.sections li a.active { background: url(../images/active-tab-bg.png); border-color: white; color: #464646; }
+
+/* Meta Links */
+#der-admin-head ul.meta-links { position: absolute; bottom: 10px; left: 14px; text-shadow: 0px 2px 2px rgba(0,0,0,0.8); }
+#der-admin-head ul.meta-links li { display: inline; }
+#der-admin-head ul.meta-links li a { display: block; float: left; padding: 0 10px 0 28px; height: 20px; line-height: 20px; font-family: Georgia,serif; font-style: italic;
+text-decoration: none; color: #d4d4d4; font-size: 13px; letter-spacing: 0.02em; margin-right: 15px; }
+#der-admin-head ul.meta-links li a:hover { color: #ebebeb; }
+
+#der-admin-head ul.meta-links li a { background: center left no-repeat; }
+
+/* Der Admin Body */
+#der-admin #der-admin-body { position: relative; z-index: 3; width: 782px; height: auto; background: #fbfbfb; border: solid 1px #d6d6d6;
+border-top: none; padding-bottom: 50px; }
+#der-admin-body #options-form p.form-buttons { position: absolute; display: block; top: -38px; right: 170px; }
+#der-admin-body #reset-options-form p.form-reset { position: absolute; display: block; top: -38px; right: 25px; }
+
+#der-admin-body input[type=submit], #der-admin-body input[type=reset] { width: 127px; height: 31px;
+background: url(../images/button.png); border: none; color: #525252; text-shadow: 0px 1px 1px rgba(255,255,255,0.75); }
+#der-admin-body input[type=submit]:hover { cursor: pointer; color: #417fb7; }
+#der-admin-body input.reset-button:hover { cursor: pointer; color: #ce3c3c; }
+
+/* Options */
+#der-admin-body #options-form h2.title { position: absolute; left: 30px; font-size: 25px; width: 722px;
+border-bottom: dotted 1px #E9E9E9; padding-bottom: 20px; font-style: italic; font-weight: normal; font-size: 22px; }
+#der-admin-body .root-section { padding: 60px 0 30px 0; }
+
+#der-admin-body .option { position: relative; width: 722px; padding: 10px 0 10px; margin: 0 30px;
+border-bottom: solid 1px #e9e9e9; height: auto !important; height: 100px; min-height: 100px; }
+#der-admin-body .option h3, #der-admin-body .custom h3 { color: #505050; padding: 10px 0 0px 0; font-weight: normal; font-size: 15px; }
+#der-admin-body .option h3 small, #der-admin-body .custom h3 small { font-size: 13px; color: #888; }
+#der-admin-body .option h3.checkbox-type { padding-bottom: 5px; }
+#der-admin-body .option h3.radio-type { padding-bottom: 8px; }
+#der-admin-body .option .left { float: left; width: 450px; margin-right: 15px; padding-bottom: 30px; }
+#der-admin-body .option .right { float: left; width: 257px; font-family: Verdana, sans-serif; color: #7c7c7c; }
+#der-admin-body .option .right p { font-size: 11px; line-height: 1.6em; }
+#der-admin-body .option input[type=text], #der-admin-body .option textarea, #der-admin-body .option select {
+position: relative; width: 100%; border: solid 1px #cccccc; -moz-border-radius: 8px; background: #f2f2f2; border-top: solid 2px #c4c4c4;
+font-family: "Lucida Grande",Verdana,Arial,"Bitstream Vera Sans",sans-serif; font-size: 11px; color: #4c4b4a; top: 15px; }
+
+#der-admin-body .option input[type=text]:focus, #der-admin-body .option textarea:focus { background-color: #f9f9f9; }
+
+#der-admin-body .option select { height: auto; padding: 5px 5px 4px 3px; }
+#der-admin-body .option select option {  }
+#der-admin-body .option input[type=text] { padding-left: 5px; height: 30px;}
+#der-admin-body .option textarea { padding: 10px; }
+#der-admin-body .option input[type=checkbox] { margin: -2px 8px 0 0; }
+#der-admin-body .option input[type=radio] { margin-right: 8px; margin-top: -2px; }
+
+#der-admin-body .custom { padding: 10px 30px; border-bottom:1px solid #E9E9E9; color: #8B8B8B !important; font-size: 11px; }
+#der-admin-body .custom p { color: #8B8B8B; font-size: 11px !important; line-height: 1.6em; }
+#der-admin-body .custom a { font-weight: normal; text-decoration: none; }
+#der-admin-body .custom h3 { margin: 0 0 10px 0; }
+#der-admin-body .custom strong {  }
+
+#der-admin-body .checkbox-option p, #der-admin-body .radio-option .left p { color: #4c4b4a;
+font-family: "Lucida Grande",Verdana,Arial,"Bitstream Vera Sans",sans-serif; font-size: 11px; }
+
+/* Form Bottom Buttons */
+#der-admin-body #options-form .form-bottom { position: relative; width: 712px; margin: 0 auto; }
+#der-admin-body #options-form .form-bottom input[type=submit] { position: absolute; right: 135px; }
+
+#der-admin-body #reset-options-form #reset-button-bottom { position: absolute; bottom: 16px; right: 25px;}
+
+/* Loading Indicator */
+#ajax-loader { display: none; position: absolute; width: 13px; height: 13px; right: 318px; top: 136px; }
+
+/* Popup Notification Style */
+body #popup { position: absolute; width: 348px; height: 120px; left: 398px; position: fixed; z-index: 9999;
+background-image: url(../images/save-options-popup.png); opacity: 0; }
+
+/* Image Preview */
+#der-admin-body .option a.image-preview { position: absolute; display: block; width: 21px; height: 20px;
+background: url(../images/preview-image-btn.png) center no-repeat; top: 59px; left: 428px; z-index: 10; }
+#der-admin-body .option input.mime-image { width: 420px; }
+
+/* Color Preview */
+#der-admin-body .option .colorpicker-icon { position: absolute; display: block; width: 22px; height: 22px; -moz-border-radius: 5px;
+background: url(../images/colorpicker.png) center no-repeat; z-index: 10; top: 59px; left: 425px; }
+.colorpicker { z-index: 9999; }
+
+/* Back to top button */
+#der-admin-body #back-to-top { position: absolute; width: 22px; height: 23px; background: url(../images/top.png) center no-repeat;
+bottom: 20px; right: 316px; }
+
+/* Radio Options */
+#der-admin-body .radio-option .left p:hover { cursor: pointer; }
+
+/* Upload Buttons */
+#der-admin-body .mime-image-container .buttons-container { padding-top: 20px; }
+
+/* Code */
+#der-admin-body .code-option .left { width: 100%; }
+#der-admin-body .code-option .custom { padding: 0 0 0 2px; }
+#der-admin-body .code-option .custom strong { font-weight: bold; }
+#der-admin-body .code-option .custom em { font-style: italic; }
+#der-admin-body .code-option .custom u { text-decoration: underline; }
+#der-admin-body .code-option textarea { font-family: "Monaco","Andale Mono",'Lucida Console', monospace; font-size: 11px; color: #2f68b6;}

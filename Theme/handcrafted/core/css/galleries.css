@@ -1,0 +1,34 @@
+
+/*  HandCrafted Gallery Styles
+    Copyright (c) Ernesto Mendez 2010.
+    http://der-design.com  */
+
+/* GENERAL GALLERY  CLASS */
+ul.hc-gallery { padding: 7px 0 0 0; max-width: 900% !important; }
+ul.hc-gallery li { float: left; }
+ul.hc-gallery li a { display: inline-block; padding: 5px; background: #f6f6f6; border: solid 1px #cfcfcf; }
+ul.hc-gallery li a:hover { background-color: #e9e9e9; border-color: #ccc;
+-moz-box-shadow: 0 0 15px rgba(0,0,0,0.25); -webkit-box-shadow: 0 0 15px rgba(0,0,0,0.25); box-shadow: 0 0 15px rgba(0,0,0,0.25); }
+ul.hc-gallery li a img { margin-bottom: -6px; max-width: none !important; }
+
+
+/* NORMAL LAYOUT (560px) */
+ul.hc-gallery-3 { width: 585px; }
+ul.hc-gallery-3 li { margin: 0 25px 25px 0; }
+
+ul.hc-gallery-2 { width: 580px; }
+ul.hc-gallery-2 li { margin: 0 20px 20px 0; }
+
+ul.hc-gallery-1 { width: 560px; }
+ul.hc-gallery-1 li { float: none; margin: 0 0 25px 0; }
+
+
+/* FULL WIDTH LAYOUT (890px) */
+div.wrapper-full-width ul.hc-gallery-3 { width: 915px;  }
+div.wrapper-full-width ul.hc-gallery-3 li { margin: 0 25px 35px 0; }
+
+div.wrapper-full-width ul.hc-gallery-2 { width: 930px; }
+div.wrapper-full-width ul.hc-gallery-2 li { margin: 0 40px 40px 0; }
+
+div.wrapper-full-width ul.hc-gallery-1 { width: 890px; }
+div.wrapper-full-width ul.hc-gallery-1 li { float: none; margin: 0 0 25px 0; }

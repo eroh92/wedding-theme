@@ -1,0 +1,132 @@
+
+/*  CSS Foundation (Typography, Grid & Specifics)
+    Modified version of the Blueprint CSS Framework 0.9
+    Licensed under MIT and GPLv2 */
+
+/* Reset */
+html, body, div, span, object, iframe, h1, h2, h3, h4, h5, h6, p, blockquote, pre, a,
+abbr, acronym, address, code, del, dfn, em, img, q, dl, dt, dd, ol, ul, li, fieldset,
+form, label, legend, table, caption, tbody, tfoot, thead, tr, th, td, article, aside,
+dialog, figure, footer, header, hgroup, nav, section
+{margin:0;padding:0;border:0;font-weight:inherit;font-style:inherit;font-size:100%;font-family:inherit;vertical-align:baseline;}
+article, aside, dialog, figure, footer, header, hgroup, nav, section {display:block;}
+body {line-height:1.5;}
+table {border-collapse:separate;border-spacing:0;}
+caption, th, td {text-align:left;font-weight:normal;}
+table, td, th {vertical-align:middle;}
+blockquote:before, blockquote:after, q:before, q:after {content:"";}
+blockquote, q {quotes:"" "";}
+a img {border:none;}
+
+/* Typography */
+html {font-size:100.01%; /*overflow-y:scroll */ }
+body {font-size:13px;color:#666;background:#fff; }
+h1, h2, h3, h4, h5, h6 {font-weight:normal;color:#434543;margin-bottom:13px;line-height:1.3em;}
+h1 {font-size:250%;}
+h2 {font-size:200%;}
+h3 {font-size:170%;}
+h4 {font-size:145%;}
+h5 {font-size:135%;}
+h6 {font-size:130%;}
+h1 img, h2 img, h3 img, h4 img, h5 img, h6 img {margin:0;}
+p {margin:0 0 1.5em;}
+a,a:focus { color: #d45429; text-decoration: underline; }
+a:hover { color: #ff7f50; }
+blockquote {margin:1.5em;color:#666;font-style:italic;}
+strong {font-weight:bold;}
+em, dfn {font-style:italic;}
+dfn {font-weight:bold;}
+sup, sub {line-height:0;}
+big {font-size:120%;}
+small {font-size: 88%;}
+abbr, acronym {border-bottom:1px dotted #666;}
+address {margin:0 0 1.5em;font-style:italic;}
+del {color:#666;}
+pre {margin:1.5em 0;white-space:pre;}
+pre { padding: 10px; background: #f6f6f6;  border: dotted 1px #ccc; }
+pre, code, tt, samp {font-family: "Monaco","Andale Mono",'Lucida Console', monospace;line-height:1.5;font-size: 93%;}
+li ul, li ol {margin:0;}
+ul > li { list-style: square; }
+ul, ol {margin:0 1.5em 1.5em 0;padding-left:17px;}
+ol {list-style-type:decimal;}
+dl {margin:0 0 1.5em 0;}
+dl dt {font-weight:bold;}
+dd {margin-left:1.5em;}
+table {margin-bottom:1.5em;width:100%; border: solid 1px #ccc;}
+th {font-weight:bold;}
+thead th {background:#f6f6f6; border-bottom: solid 1px #ccc; }
+th, td, caption {padding:4px 10px 4px 5px;}
+tr.even td {background:#e5ecf9;}
+tfoot {font-style:italic;}
+caption {background:#fbfbfb; border: solid 1px #ccc; border-bottom: none; font-style: italic; font-family: Georgia,serif; width: 100%; padding: 5px 0; text-indent: 5px; }
+
+/* Forms */
+form {margin-bottom: 1.5em;}
+form * {font-family: inherit;font-size: inherit;}
+label {font-weight: bold;}
+fieldset {padding:15px;margin:0 0 1.5em 0;border:1px solid #ebebeb;}
+legend {font-weight:bold;font-size:1.2em;}
+input[type=text], input[type=password], input.text, input.title, textarea{background-color:#eeeeee;border:1px solid #dfdfdf; color: #7e7e7e; }
+input[type=text]:focus, input[type=password]:focus, input.text:focus, input.title:focus, textarea:focus {border-color:#cfcfcf;}
+input[type=text], input[type=password], input.text, input.title, textarea{margin:0.5em 0; padding: 5px; }
+input.text, input.title {width:300px;padding:5px;}
+input.title {font-size:1.5em;}
+textarea {height:100px;padding:5px; }
+input[type=submit], input[type=reset] {padding: 5px 18px; background: #f2f2f2; border: solid 1px #c4c4c4;}
+input[type=submit]:hover, input[type=reset]:hover {cursor:pointer;background: #ebebeb;}
+input[type=text] + label, input[type=password] + label, label + input[type=text], label + input[type=password] {margin-left: 10px;}
+input[type=radio] + label, input[type=checkbox] + label {font-weight:normal; vertical-align: middle;}
+input[type=checkbox], input[type=radio] {position:relative;top:0px; vertical-align: middle; top: 0px; }
+form p {margin-bottom: 0.5em;}
+
+/* Notices */
+.error, .notice, .success {padding:.8em;margin-bottom:1em;border:2px solid #ddd;}
+.error {background:#FBE3E4;color:#8a1f11;border-color:#FBC2C4;}
+.notice {background:#FFF6BF;color:#514721;border-color:#FFD324;}
+.success {background:#E6EFC2;color:#264409;border-color:#C6D880;}
+.error a {color:#8a1f11;}
+.notice a {color:#514721;}
+.success a {color:#264409;}
+
+/* Grid */
+hr {background:#cfcfcf;color:#cfcfcf;clear:both;float:none;width:100%;height:1px;margin:0 0 1.45em;border:none;}
+.clearfix:after, .container:after {content:"\0020";display:block;height:0;clear:both;visibility:hidden;overflow:hidden;}
+.clearfix, .container {display:block;}
+.clear {clear:both;}
+
+/* Extra */
+.block {display:block;}
+dd {margin-bottom: 1.5em;}
+abbr:hover, acronym:hover {cursor: help;}
+*:focus{outline:none;}
+*::-moz-focus-inner {border:0;}
+.floatLeft { float: left;}
+.floatRight { float: right;}
+.margin-clear { display: block; width: 100%; height: 5px; margin-bottom: -5px; background: none; clear: both; visibility: hidden; overflow: hidden; z-index: -1; }
+ul.layout-list { margin: 0; padding: 0; }
+ul.layout-list li { margin: 0; padding: 0; list-style: none; }
+
+/* Darker Elements */
+strong, big, dl dt, label, table caption, del { color:#434543; }
+
+/* WordPress Specific */
+.alignleft {float:left; margin:1em 1.5em 1em 0;}
+.alignright {float:right; margin:1em 0 1em 1.5em;}
+.aligncenter {display: block; margin: 1.7em auto;}
+.wp-caption { background: #f6f6f6;padding:7px 2px 2px;border:solid 1px #cfcfcf;}
+.wp-caption br { display: none; }
+.wp-caption img { margin-left: 5px; }
+.wp-caption p { margin: 0;padding: 5px 0 8px 6px; text-align: center; font-style:italic; font-size: 13px; font-family: Georgia,serif; color: #3e3e3e; }
+
+/* Button Framework */
+.button { position: relative; display: inline-block; text-decoration: none; }
+.button span { display: inline-block; float: left; background-repeat: no-repeat; height: 100%; }
+.button span.left { background-position: center left; }
+.button span.right { background-position: center right; }
+.button input[type=submit] { display: inline-block; position: absolute; top: 0; left: 0; margin: 0; padding: 0; width: 100%; height: 100%; border: none; background: none; z-index: 1; }
+
+/* Centered List Framework */
+.centeredlist { text-align: center; }
+.centeredlist > ul { display: inline-block; }
+.centeredlist > ul > li { display: inline-block; list-style: none; }
+*:first-child+html .centeredlist > ul > li { zoom:1; *display: inline; } /* IE7 Only */

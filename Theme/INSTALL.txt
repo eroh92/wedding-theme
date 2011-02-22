@@ -1,0 +1,61 @@
+
+
+This document covers the installation procedures to get you started with Hand Crafted. 
+  
+  ----------------------
+  * Installing the theme
+  ----------------------
+
+  You can install the theme in 2 ways: By using the ZIP file provided and uploading via your 
+  WordPress Admin, or by using the handcrafted/ directory (containing the theme's files), and 
+  uploading via FTP.
+
+
+  --------------------
+  * Using the ZIP file
+  --------------------
+
+  The theme comes already packaged in a ZIP archive called handcrafted.zip. You can use this archive 
+  to install the theme on your WordPress site. To install your theme, do the following:
+
+  1) Go to Appearance > Themes
+  2) Click on the Install Themes Tab, next to "Manage Themes"
+  3) Click on Upload
+  4) Click on Browse and look for the handcrafted.zip file.
+  5) Click on Install Now.
+
+  This procedure will install the Hand Crafted theme on your WordPress site. You can activate the 
+  theme after it has been uploaded.
+
+ 
+  ----------------------------------
+  * Using the handcrafted/ directory
+  ----------------------------------
+
+  The theme's files are located inside the handcrafted/ directory. To manually install into your 
+  server via FTP, do the following:
+
+  1) Login to your WordPress site with your preferred FTP client
+  2) Navigate to the /wp-content/themes/ directory
+  3) Upload the handcrafted/ directory inside the /wp-content/themes/ directory
+  4) After the upload is complete, you will be able to choose the Hand Crafted theme from 
+  Appearance > Themes. You can then proceed to activate the theme and start using it.
+
+
+  ----------------------------------
+  * Troubleshooting: Corrupted theme
+  ----------------------------------
+  
+  Sometimes, problems can arise when uploading/installing, and the theme can become corrupted, 
+  due to an incomplete installation. WordPress usually reports the broken theme and it says that 
+  the Stylesheet (style.css) is missing.
+
+  If your theme becomes corrupted for any reason, do the following to fix it:
+
+  1) Login to your WordPress site with your preferred FTP client
+  2) Navigate to the /wp-content/themes/ directory
+  3) Remove the handcrafted/ directory completely
+  4) After you have removed the handcrafted/ directory, you can proceed to re-install the theme, 
+  either by using the ZIP File method, or by using the handcrafted/ directory method.
+
+  
