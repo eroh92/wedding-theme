@@ -108,7 +108,7 @@ function theme_logo() { global $_der;
 		switch($color_theme) {
 
 			case 'default':
-				$logo =  get_bloginfo('template_directory') . '/core/images/logo.png';
+				$logo =  get_bloginfo('template_directory') . '/core/images/logo.jpg';
 				break;
 
 			case 'dark':
