@@ -26,6 +26,7 @@ $allowedSites = array (
 	'blogger.com',
 	'wordpress.com',
 	'img.youtube.com',
+	'robandlina.com',
 );
 
 // STOP MODIFYING HERE!
