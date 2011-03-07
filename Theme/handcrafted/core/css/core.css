@@ -95,7 +95,7 @@ overflow: hidden; font-size: 100em; opacity: 0.32; }
 #header .navigation > ul > li > a { text-decoration: none; color: #505050; }
 #header .navigation > ul > li > a:hover { color: #636363; }
 #header .navigation > ul > li.current_page_item > a, #header .navigation > ul > li.current_page_item > a:hover,
-#header .navigation > ul > li.current-menu-item > a, #header .navigation > ul > li.current-menu-item > a:hover { color: #d45429; }
+#header .navigation > ul > li.current-menu-item > a, #header .navigation > ul > li.current-menu-item > a:hover { color: #f48; }
 
 /* PIECEMAKER */
 #piecemaker-wrap { margin-bottom: -30px; }
@@ -215,7 +215,7 @@ ul.posts li.post a.read-more:hover { border-right-color: #f96855; }
 #page-header h1.page-title { margin: 0 0 0 0; padding: 0; font-family: Georgia,serif; font-size: 308%; font-style: italic; color: #27271a; letter-spacing: 0.8px; }
 #page-header span.page-meta { margin: 0; padding: 0; font-family: Georgia,serif; font-size: 123.07%; font-style: italic; color: #585a58; letter-spacing: 1px; text-decoration: none; }
 #page-header span.page-meta a { color: #585a58; letter-spacing: 1px; text-decoration: none; }
-#page-header span.page-meta a:hover { color: #D45429; text-decoration: underline; }
+#page-header span.page-meta a:hover { color: #f48; text-decoration: underline; }
 
 
 /* PAGINATION */

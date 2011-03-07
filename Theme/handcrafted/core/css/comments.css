@@ -17,14 +17,14 @@
 #comments ol.commentlist li.comment .comment-author cite.fn { position: absolute; font-family: Georgia, serif; top: 4px; }
 #comments ol.commentlist li.comment .comment-author cite.fn, #comments ol.commentlist li.comment .comment-author cite.fn a { text-decoration: none; color: #434543; font-size: 115.38%;
 font-style: normal; white-space: nowrap;  }
-#comments ol.commentlist li.comment .comment-author cite.fn a:hover { text-decoration: underline; color: #d45429; }
+#comments ol.commentlist li.comment .comment-author cite.fn a:hover { text-decoration: underline; color: #f48; }
 #comments ol.commentlist li.comment .comment-meta { position: absolute; font-size: 84.61%; top: 28px; text-decoration: none; font-style: normal; width: 560px; }
 #comments ol.commentlist li.comment .comment-meta a { text-decoration: none; color: #868686; }
 #comments ol.commentlist li.comment .comment-meta a:hover { text-decoration: underline; }
 
 #comments ol.commentlist li.comment-author-admin, #comments ol.commentlist li.comment li.bypostauthor { background: url(../images/comment-author-bg.png) repeat !important;  }
 
-#comments a.comment-reply-link { position: absolute; font-size: 84.61%; text-decoration: none; color: #d45429 !important; }
+#comments a.comment-reply-link { position: absolute; font-size: 84.61%; text-decoration: none; color: #f48 !important; }
 #comments a.comment-reply-link:hover { text-decoration: underline; }
 #comments a.comment-reply-link { top: 28px; right: 84px; }
 
