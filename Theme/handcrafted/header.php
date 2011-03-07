@@ -38,27 +38,7 @@ $color_stylesheet = ( COLOR_THEME != 'default' ) ? 'core/styles/' . COLOR_THEME 
 <body<?php body_id(); ?>>
 
 <div id="topbar-wrap">
-	<div id="topbar">
-
-		<ul class="links">
-			<li class="rss-icon"><a href="<?php $_der->val('rss_feed', null, get_bloginfo('rss2_url')) ?>" title="<?php _t('RSS Feed'); ?>" ><img width="25" height="<?php echo MOD_SOCIAL_ICONS_HEIGHT; ?>" src="<?php bloginfo('template_directory'); ?>/core/images/icons/rss.png" /></a></li>
-<?php
-
-	$social_icons = mod_social_get_data();
-
-	foreach ($social_icons as $item) {
-
-		echo "\t\t\t" . '<li><a href="' . $item['url'] . '" title="' . $item['name'] . '" ><img width="' . MOD_SOCIAL_ICONS_WIDTH . '" height="' . MOD_SOCIAL_ICONS_HEIGHT . '" src="' . $item['icon'] . '" /></a></li>' . "\n";
-
-	}
-
-?>		</ul><!-- .links -->
-
-		<form class="search" action="<?php bloginfo('home'); ?>" method="get">
-			<p><input type="text" name="s" title="<?php _t('Search...') ?>" value="<?php echo ( is_search() ) ? attribute_escape( get_search_query() ) : t('Search...'); ?>" /><input type="submit" value="<?php _t('Search'); ?>" /></p>
-		</form><!-- .search -->
-
-	</div><!-- topbar -->
+&nbsp;
 </div><!-- topbar-wrap -->
 
 <!-- + -->

@@ -1,4 +1,4 @@
-<?php require_once('../../../wp-load.php'); header('Content-Type: text/javascript'); global $d, $_der;
+<?php require_once('wp-load.php'); header('Content-Type: text/javascript'); global $d, $_der;
 
 /* @var $_der DerThemeOptions */
 
