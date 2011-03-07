@@ -52,7 +52,6 @@ $simple_footer = $_der->checked('disable_footer');
 	endif;
 
 ?>
-		<li class="copyright"><?php $_der->val('copyright_info'); ?></li>
 
 	</ul>
 </div><!-- footer-wrap -->
