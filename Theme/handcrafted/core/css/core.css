@@ -136,7 +136,7 @@ text-indent: -9999px; }
 #homepage-center { position: relative; width: 880px; margin: 10px auto 0; }
 #homepage-center p { margin: 30px 0 0 0; padding: 0 0 0 0; font-family: Georgia,serif; font-style: italic; font-size: 146.15%; font-weight: normal; line-height: 1.70em; letter-spacing: 0.4px;
 width: 740px; float: left; }
-#homepage-center p span.dropcap { position: relative; display: block; font-family: Georgia,serif; font-size: 490%; color: #f96855; float: left; line-height: 0.8;
+#homepage-center p span.dropcap { position: relative; display: block; font-family: Georgia,serif; font-size: 490%; color: #f48; float: left; line-height: 0.8;
 text-transform: uppercase; font-style: normal; margin-right: 3px; }
 
 #homepage-center a.round-button { display: block; width: 125px; height: 125px; background: url(../images/big-circles.png) no-repeat; text-indent: -9999px; float: right; }
@@ -160,7 +160,7 @@ ul.posts li.post .excerpt { margin-bottom:  23px; }
 ul.posts li.post .excerpt p:last-child { margin-bottom: 0; padding-bottom: 0; }
 ul.posts li.post a.read-more { display: inline-block; padding: 0 25px 0 15px; height: 23px; line-height: 23px; letter-spacing: 0.3px; background-color: #2c2c2c; color: #b3ad9d; 
 text-decoration: none; border-right: solid 5px #8c8880; font-size: 92%; }
-ul.posts li.post a.read-more:hover { border-right-color: #f96855; }
+ul.posts li.post a.read-more:hover { border-right-color: #f48; }
 
 
 /* POST META */
