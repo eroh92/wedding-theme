@@ -69,7 +69,7 @@ switch ($homepage_icon) {
 
 		$permalink = ($contact_page) ? get_permalink($contact_page) : '#contact-page';
 
-		$link = '<a class="round-button contact" title="' . t('Contact Us') . '" href="' . $permalink . '">' . t('Contact') . "</a>\n";
+		$link = '<a class="round-button contact smcf-link" title="' . t('Contact Us') . '" href="' . $permalink . '">' . t('Contact') . "</a>\n";
 
 		break;
 
