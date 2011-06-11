@@ -25,7 +25,6 @@ if ( is_archive() OR is_search() ) {
 
 <div id="page-header">
 	<h1 class="page-title"><?php echo ( is_archive() OR is_search() ) ? $title : theme_long_title(); ?></h1>
-	<?php if ($description): ?><span class="page-meta"><?php echo $description; ?></span><?php endif; ?>
 </div><!-- page-header -->
 
 <!-- + -->

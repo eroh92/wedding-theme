@@ -13,7 +13,6 @@ $blog_excerpt = $_der->equal('blog_excerpt', 'Excerpt');
 
 <div id="page-header">
 	<h1 class="page-title"><?php echo theme_long_title(); ?></h1>
-	<?php if ($description): ?><span class="page-meta"><?php echo $description; ?></span><?php endif; ?>
 </div><!-- page-header -->
 
 <!-- + -->

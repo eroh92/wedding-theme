@@ -23,7 +23,6 @@ $post_description = der_postmeta('post_description');
 
 <div id="page-header">
 	<h1 class="page-title"><?php the_title(); ?></h1>
-	<span class="page-meta"><?php if (!$post_description): ?>Published by <?php echo der_link( get_the_author(), der_author_link() ); ?> on <?php echo der_month_link('F'); ?> <?php echo der_day_link('j') ?>, <?php echo der_year_link('Y'); ?>. <?php if ($categories): ?>Filed under <?php echo $categories; ?><?php endif; else: echo $post_description; endif; ?></span>
 </div><!-- page-header -->
 
 <!-- + -->
